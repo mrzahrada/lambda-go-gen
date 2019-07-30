@@ -1,0 +1,32 @@
+{
+  "name": "lambda-go-gen",
+  "version": "1.0.0",
+  "description": "Generate main.go files for go1.x lambdas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzahrada/lambda-go-gen.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "go"
+  ],
+  "author": "Tomas Zahradnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrzahrada/lambda-go-gen/issues"
+  },
+  "homepage": "https://github.com/mrzahrada/lambda-go-gen#readme",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
